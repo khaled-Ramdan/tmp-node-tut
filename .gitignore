@@ -1,0 +1,2 @@
+# ignore dependencies from being push to the repo
+node_modules/
