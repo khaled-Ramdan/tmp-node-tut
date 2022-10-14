@@ -12,6 +12,9 @@ async function start() {
 			new URL("textfile.txt", import.meta.url),
 			"utf-8"
 		);
+        await writeFilepromise(
+					new URL("result.txt", import.meta.url),"this is data",'utf-8'
+				);
 		console.log(fr, sc);
 	} catch (err) {
 		console.log(err);
